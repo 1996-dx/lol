@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;font-family: 'MicrosoftYaHei';
+}
+.box{
+	width: 600px;
+	height: 240px;
+	padding: 40px;
+	position: absolute;
+	top: 465px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:url(../img/0fffab603a3b4fb129013aeb3f4b9a98_1636962885.jpg) no-repeat;
+	text-align: center;
+}
+.box h1{
+	color: burlywood;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.box input[type="text"],.box input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background: #2ECC71;
+}
+.head .login-infor {
+    font-family: "MicrosoftYaHei";
+    font-size: 0.8333vw;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-right: -33.0833vw;
+}
+
+.head .login-infor a {
+    color: #ba8964;
+    text-decoration: none;
+}

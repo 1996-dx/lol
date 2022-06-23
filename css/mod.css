@@ -1,0 +1,526 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+header {
+    margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 tahoma, '\5FAE\8F6F\96C5\9ED1', sans-serif
+}
+
+h1,
+h2 {
+    font-size: 100%
+}
+
+em,
+b {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+img {
+    border: 0;
+    user-select: none;
+}
+
+body {
+    padding-top: 0vw;
+    background-color: #0e0e0e;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    outline: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th,
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.db {
+    display: block;
+    text-indent: -999em;
+}
+
+.md {
+    display: none !important;
+}
+
+.wrap {
+    max-width: 100%;
+    min-width: 97.9167vw;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translateZ(-1px);
+}
+
+
+/* head S */
+
+.head {
+    width: 100%;
+    height: 44.4271vw;
+    background: url('../img/bac.jpg') center top no-repeat;
+    background-size: 100vw 44.4271vw;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+}
+
+.head::after {
+    display: block;
+    width: 100%;
+    height: 11.5104vw;
+    content: '';
+    background: url('../img/solid.png') center top no-repeat;
+    background-size: 100vw 11.5104vw;
+    position: absolute;
+    left: 0vw;
+    bottom: -2.8125vw;
+}
+
+.head .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    overflow: hidden;
+    background: url('../img/head-bg.jpg') center top no-repeat;
+    background-size: 100vw 44.4792vw;
+}
+
+.head .bg video {
+    height: 100%;
+    position: absolute;
+    top: 0vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head .con {
+    min-width: 73.4375vw;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+.head .con .top {
+    box-sizing: border-box;
+    display: flex;
+    height: 5.6771vw;
+    padding-top: 1.0417vw;
+    padding-bottom: 2.6042vw;
+    justify-content: space-between;
+    background: url('../img/top.png') center top no-repeat;
+    background-size: 100vw 5.6771vw;
+}
+
+.head .con .l-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.head .logo {
+    width: 8.5938vw;
+    height: 2.0313vw;
+    background: url('../img/logo.png') center top no-repeat;
+    background-size: 8.5938vw 2.0313vw;
+    margin-left: 2.3438vw;
+}
+
+.head #navigation {
+    width: 41.3958vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.1667vw;
+}
+
+.head #navigation a {
+    font-family: " MicrosoftYaHei";
+    font-size: 0.7292vw;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+}
+
+.head #navigation .riot {
+    font-family: " MicrosoftYaHei";
+    font-size: 0.7292vw;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+    /* padding-right: 1.0417vw; */
+}
+
+.head #navigation .riot .nav7 {
+    padding-right: 1.0417vw;
+}
+
+.head .riot em {
+    display: block;
+    width: 0.6771vw;
+    height: 0.5729vw;
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -44.5833vw -37.8646vw;
+    position: absolute;
+    right: 0vw;
+    top: 0.3046vw;
+}
+
+.head .riot .nav-branch {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    padding-top: 0.5208vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translateY(-20%);
+}
+
+.head .riot:hover .nav-branch {
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.head .riot .nav-branch a {
+    display: block;
+    margin-bottom: 0.5208vw;
+}
+
+.head #navigation a:hover::after,
+.head #navigation a.on::after {
+    width: 2.7604vw;
+    height: 0.1042vw;
+    display: block;
+    content: '';
+    background: url('../img/sp2.png') no-repeat;
+    background-size: 31.25vw 41.6667vw;
+    background-position: -12.0833vw -0.7812vw;
+    position: absolute;
+    left: 49%;
+    bottom: -0.3125vw;
+    transform: translateX(-50%);
+}
+
+.head .login-info {
+    font-family: "MicrosoftYaHei";
+    font-size: 0.8333vw;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-right: 2.0833vw;
+}
+
+.head .login-info a {
+    color: #ba8964;
+    text-decoration: none;
+}
+
+.head .tit1 {
+    width: 38.2292vw;
+    height: 9.1146vw;
+    background: url('../img/sp1.png') no-repeat;
+    background-size: 72.9167vw 83.3333vw;
+    background-position: -0.8333vw -28.8542vw;
+    margin: 1.5625vw auto 1.0417vw;
+}
+
+.head .tit2 {
+    width: 12.7604vw;
+    height: 3.125vw;
+    background: url('../img/sp1.png') no-repeat;
+    background-size: 72.9167vw 83.3333vw;
+    background-position: -0.8333vw -43.125vw;
+    margin: 0vw auto;
+}
+
+.head .tit3 {
+    width: 30.5833vw;
+    height: 6.5104vw;
+    background: url('../img/ltit.png') center top no-repeat;
+    background-size: 49.5833vw 6.5104vw;
+    margin: -1.6354vw auto 0vw;
+}
+
+/* .head .btn-order {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/btn2.png') no-repeat;
+    background: url('../img/btn1.png') no-repeat;
+    background-size: 100% 100%;
+    background: url('../img/sp2.png') no-repeat;
+    background-size: 31.25vw 41.6667vw;
+    background-position: -0.9896vw -5.3646vw;
+    margin: 2.6042vw auto 0;
+    cursor: pointer;
+} */
+
+.head .btn-watch {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/sp6.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 2.6042vw auto 0;
+    cursor: pointer;
+}
+.head .completed {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/completed.png') no-repeat;
+    background-size: 22.1354vw 7.1354vw;
+    margin: 2.6042vw auto 0;
+    pointer-events: none;
+}
+
+
+.role-part {
+    width: 100%;
+    /* background: url('//game.gtimg.cn/images/lol/arcane/v3/bg2.jpg') center bottom no-repeat;
+    background-size: 100vw 55.9375vw; */
+}
+
+.role-part .con {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.role-part .tit {
+    width: 358px;
+    height: 109px;
+    background: url('../img/sp7.png') no-repeat;
+    /* background-position: -9px -216px; */
+}
+
+.role-part .main {
+    width: 750px;
+    position: relative;
+    left: -25px;
+    top: 0px;
+}
+
+.role-part .swiper-container-r {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.role-part .swiper-container-r .swiper-slide {
+    width: 299px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.role-part .swiper-button-prev {
+    width: 48px;
+    height: 48px;
+    background: url('../img/sp2.png') no-repeat;
+    background-position: -9px -378px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    opacity: 1 !important;
+    z-index: 9;
+    transform: scale(1.3);
+}
+
+.role-part .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    background: url('../img/sp2.png') no-repeat;
+    background-position: -95px -378px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    opacity: 1 !important;
+    z-index: 9;
+    transform: scale(1.3);
+}
+
+.role-part .swiper-button-prev.swiper-button-disabled {
+    background-position: -9px -295px;
+}
+
+.role-part .swiper-button-next.swiper-button-disabled {
+    background-position: -95px -295px;
+}
+
+
+/* .role-part .swiper-slide:nth-child(odd) {
+    top: -50px;
+}
+
+.role-part .swiper-slide:nth-child(even) {
+    top: 50px;
+} */
+.role-part .swiper-container-r .role-box {
+    width: 280px;
+    height: 434px;
+    margin: 0 auto;
+    background: url('../img/sp3.png') no-repeat;
+    background-position: -654px -800px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.role-part .swiper-slide img {
+    display: block;
+    width: 280px;
+    height: 490px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    filter: brightness(0.6);
+    z-index: 12;
+    transition: all 0.3s;
+}
+
+.role-part .role-box .mask {
+    display: block;
+    width: 262px;
+    height: 309px;
+    background: url('../img/sp3.png') no-repeat;
+    background-position: -240px -781px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 13;
+}
+
+.role-part .role-box .seleted {
+    display: none;
+    width: 299px;
+    height: 454px;
+    background: url('../img/sp3.png') no-repeat;
+    background-position: -1040px -800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.role-part .wei .seleted,
+.role-part .jess .seleted,
+.role-part .caitlin .seleted,
+.role-part .mel .seleted {
+    background-position: -44px -1131px;
+}
+
+.role-part .swiper-slide.swiper-slide-active.on .role-box {
+    transform: scale(1.22);
+    transition: all 0.3s;
+}
+
+
+/* .role-part .swiper-slide-active .role-box {
+    transform: scale(1.2);
+} */
+
+.role-part .swiper-slide.swiper-slide-active.on img {
+    filter: brightness(1.2);
+}
+
+.role-part .swiper-slide.swiper-slide-active.on .seleted {
+    display: block;
+}
+
+.role-part .swiper-slide .roleInfo {
+    opacity: 0;
+    width: 254px;
+    height: 138px;
+    background: url('../img/sp3.png') no-repeat;
+    background-position: -540px -167px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(30%);
+    z-index: 14;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: all 0.3s;
+}
+
+.role-part .swiper-slide.swiper-slide-active.on .roleInfo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.role-part .swiper-slide .top-text {
+    padding-top: 0.5208vw;
+}
+
+.role-part .swiper-slide .rname {
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 25px;
+    font-weight: 600;
+    color: #f5f2ed;
+}
+
+.role-part .swiper-slide .town {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #8e8e8e;
+    margin-left: 5px;
+}
+
+.role-part .swiper-slide .present {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8e8e8e;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.role-part .p1{
+	position: relative;
+	top: 600px;
+	left: 600px;
+}

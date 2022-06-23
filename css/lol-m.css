@@ -1,0 +1,621 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+header {
+    margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 tahoma, '\5FAE\8F6F\96C5\9ED1', sans-serif
+}
+
+h1,
+h2 {
+    font-size: 100%
+}
+
+em,
+b {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+img {
+    border: 0;
+    user-select: none;
+}
+
+body {
+    padding-top: 0vw;
+    background-color: #0e0e0e;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    outline: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th,
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.db {
+    display: block;
+    text-indent: -999em;
+}
+
+.md {
+    display: none !important;
+}
+
+.wrap {
+    max-width: 100%;
+    min-width: 97.9167vw;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translateZ(-1px);
+}
+
+
+/* head S */
+
+.head {
+    width: 100%;
+    height: 44.4271vw;
+    background: url('../img/bg1.jpg') center top no-repeat;
+    background-size: 100vw 44.4271vw;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+}
+
+.head::after {
+    display: block;
+    width: 100%;
+    height: 11.5104vw;
+    content: '';
+    background: url('../img/solid.png') center top no-repeat;
+    background-size: 100vw 11.5104vw;
+    position: absolute;
+    left: 0vw;
+    bottom: -2.8125vw;
+}
+
+.head .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    overflow: hidden;
+    background: url('../img/head-bg.jpg') center top no-repeat;
+    background-size: 100vw 44.4792vw;
+}
+
+.head .bg video {
+    height: 100%;
+    position: absolute;
+    top: 0vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head .con {
+    min-width: 73.4375vw;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+.head .con .top {
+    box-sizing: border-box;
+    display: flex;
+    height: 5.6771vw;
+    padding-top: 1.0417vw;
+    padding-bottom: 2.6042vw;
+    justify-content: space-between;
+    background: url('../img/top.png') center top no-repeat;
+    background-size: 100vw 5.6771vw;
+}
+
+.head .con .l-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.head .logo {
+    width: 8.5938vw;
+    height: 2.0313vw;
+    background: url('../img/logo.png') center top no-repeat;
+    background-size: 8.5938vw 2.0313vw;
+    margin-left: 2.3438vw;
+}
+
+.head #navigation {
+    width: 41.3958vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.1667vw;
+}
+
+.head #navigation a {
+    font-family: " MicrosoftYaHei";
+    font-size: 0.7292vw;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+}
+
+.head #navigation .riot {
+    font-family: " MicrosoftYaHei";
+    font-size: 0.7292vw;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+    /* padding-right: 1.0417vw; */
+}
+
+.head #navigation .riot .nav7 {
+    padding-right: 1.0417vw;
+}
+
+.head .riot em {
+    display: block;
+    width: 0.6771vw;
+    height: 0.5729vw;
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -44.5833vw -37.8646vw;
+    position: absolute;
+    right: 0vw;
+    top: 0.3046vw;
+}
+
+.head .riot .nav-branch {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    padding-top: 0.5208vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translateY(-20%);
+}
+
+.head .riot:hover .nav-branch {
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.head .riot .nav-branch a {
+    display: block;
+    margin-bottom: 0.5208vw;
+}
+
+.head #navigation a:hover::after,
+.head #navigation a.on::after {
+    width: 2.7604vw;
+    height: 0.1042vw;
+    display: block;
+    content: '';
+    background: url('../img/sp2.png') no-repeat;
+    background-size: 31.25vw 41.6667vw;
+    background-position: -12.0833vw -0.7812vw;
+    position: absolute;
+    left: 49%;
+    bottom: -0.3125vw;
+    transform: translateX(-50%);
+}
+
+.head .login-info {
+    font-family: "MicrosoftYaHei";
+    font-size: 0.8333vw;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-right: 2.0833vw;
+}
+
+.head .login-info a {
+    color: #ba8964;
+    text-decoration: none;
+}
+
+.head .tit1 {
+    width: 38.2292vw;
+    height: 9.1146vw;
+    background: url('../img/sp1.png') no-repeat;
+    background-size: 72.9167vw 83.3333vw;
+    background-position: -0.8333vw -28.8542vw;
+    margin: 1.5625vw auto 1.0417vw;
+}
+
+.head .tit2 {
+    width: 12.7604vw;
+    height: 3.125vw;
+    background: url('../img/sp1.png') no-repeat;
+    background-size: 72.9167vw 83.3333vw;
+    background-position: -0.8333vw -43.125vw;
+    margin: 0vw auto;
+}
+
+.head .tit3 {
+    width: 49.5833vw;
+    height: 1.5104vw;
+    background: url('../img/ltit.png') center top no-repeat;
+    background-size: 49.5833vw 1.5104vw;
+    margin: 9.6354vw auto 0vw;
+}
+
+/* .head .btn-order {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/btn2.png') no-repeat;
+    background: url('../img/btn1.png') no-repeat;
+    background-size: 100% 100%;
+    background: url('../img/sp2.png') no-repeat;
+    background-size: 31.25vw 41.6667vw;
+    background-position: -0.9896vw -5.3646vw;
+    margin: 2.6042vw auto 0;
+    cursor: pointer;
+} */
+
+.head .btn-watch {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/btn2.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 2.6042vw auto 0;
+    cursor: pointer;
+}
+.head .completed {
+    width: 22.1354vw;
+    height: 7.1354vw;
+    background: url('../img/completed.png') no-repeat;
+    background-size: 22.1354vw 7.1354vw;
+    margin: 2.6042vw auto 0;
+    pointer-events: none;
+}
+/* riot-part S */
+
+.riot-part {
+    width: 100%;
+    height: 90.4271vw;
+    background: url('../img/bg-riot.jpg') center top no-repeat;
+    background-size: 100vw 184.4271vw;
+}
+
+.riot-part .top {
+    width: 72.9167vw;
+    margin: 0 auto;
+    padding-top: 4.7708vw;
+}
+
+.riot-part .top .tit {
+    width: 39.4271vw;
+    height: 7.2604vw;
+    margin: 0 auto;
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -1.1458vw -1.1875vw;
+}
+
+.riot-part .top .btn-play {
+    width: 40.4688vw;
+    height: 22.7604vw;
+    margin: 3.9063vw auto 0;
+    background: url('../img/head1-bg.jpg') center no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.riot-part .top .btn-play::after {
+    width: 40.9896vw;
+    height: 23.2813vw;
+    display: block;
+    content: '';
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -30.4167vw -11.6667vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.riot-part .top .play-icon {
+    width: 2.6563vw;
+    height: 1.6146vw;
+    display: block;
+    content: '';
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -1.1458vw -32.8125vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.riot-part .part-txt{
+    width: 34.8958vw;
+    text-align: center;
+    height: 3.6458vw;
+    color: #bebebe;
+    padding-top: 1.0417vw;
+    font-size: 0.9375vw;
+    margin: auto;
+    box-sizing: border-box;
+}
+.riot-part .part-txt span{color: #e2ba89;}
+.riot-part .evo-main {
+    width: 100%;
+    margin-top: 9.8542vw;
+}
+
+.riot-part .evo-main .con1 {
+    width: 72.9167vw;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.riot-part .evo-main .tit1 {
+    width: 18.8021vw;
+    height: 8.3333vw;
+    background: url('../img/sp7.png') no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    left: 0vw;
+    top: -1.0417vw
+}
+
+.riot-part .evo-main .t-txt1 {
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.9375vw;
+    letter-spacing: 1px;
+    line-height: 1.3542vw;
+    color: #e2ba89;
+    position: absolute;
+    left: 0px;
+    top: 8.0729vw;
+}
+
+.riot-part .evo-main .game-list {}
+
+.riot-part .game-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.riot-part .game-list li:first-child {
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+.riot-part .game-list a {
+    width: 23.4375vw;
+    height: 10.7292vw;
+    transition: all 0.3s;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.riot-part .game-list .game-info {
+    width: 16.1458vw;
+    height: 100%;
+    background: url('../img/sp4.png') no-repeat;
+    background-size: 72.9167vw 52.0833vw;
+    background-position: -56.25vw -35.625vw;
+    /* background-image: linear-gradient(to top, #000000db, #16161600); */
+    /* filter: drop-shadow(-110px 100px 10px #00000030); */
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.riot-part .sczz .game-info {
+    background-position: -56.00vw -35.625vw;
+}
+
+.riot-part .legends .game-info {
+    background-position: -55.88vw -35.625vw;
+}
+
+.riot-part .yun .game-info {
+    background-position: -56.26vw -35.625vw;
+}
+
+.riot-part .zbsc .game-info {
+    background-position: -56.25vw -35.60vw;
+}
+
+.riot-part .game-info .text {
+    text-indent: 0em;
+    width: 13.0208vw;
+    text-align: justify;
+    text-align-last: right;
+    font-size: 0.7813vw;
+    line-height: 1.0938vw;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.8;
+    position: absolute;
+    right: 0.5208vw;
+    bottom: 0.5417vw;
+    transform: translateY(50%);
+    transition: all 0.3s;
+}
+
+.riot-part .game-list .sczz {
+    background: url('../img/game1.jpg') center no-repeat;
+    background-size: 100% auto;
+    background-position-y: -0.052vw;
+}
+
+.riot-part .game-list .legends {
+    background: url('../img/game2.jpg') center no-repeat;
+    background-size: 100% auto;
+}
+
+.riot-part .game-list .lole {
+    background: url('../img/game3.jpg') center no-repeat;
+    background-size: 100% auto;
+}
+
+.riot-part .game-list .lolm {
+    background: url('../img/game4.jpg') center no-repeat;
+    background-size: 100% auto;
+}
+
+.riot-part .game-list .yun {
+    background: url('../img/game5.jpg') center no-repeat;
+    background-size: 100% auto;
+}
+
+.riot-part .game-list .jcc {
+    background: url('../img/game6.jpg') center no-repeat;
+    background-size: 100% auto;
+}
+
+.riot-part .game-list .zbsc {
+    background: url('../img/game7.jpg') center no-repeat;
+    background-size: 101% auto;
+}
+
+.riot-part .game-list a:hover {
+    transform: scale(1.1);
+    /* transform: translateY(-5%); */
+    box-shadow: 0px 0px 2px #959697;
+}
+
+.riot-part .game-list a:hover .game-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.riot-part .game-list a:hover .text {
+    transform: translateY(0%);
+}
+.part4 {
+    width: 100%;
+}
+
+.part4 .tit {
+    width: 750px;
+    height: 65px;
+    background: url('//game.gtimg.cn/images/lol/arcane/v3/m/sp1.png') no-repeat;
+    background-position: -11px -967px;
+    margin: 0 auto;
+}
+
+.part4 .con {
+    padding-top: 150px;
+}
+
+.part4 .partner {
+    width: 689px;
+    height: 56px;
+    background: url('//game.gtimg.cn/images/lol/arcane/v3/m/sp1.png') no-repeat;
+    background-position: -11px -482px;
+    margin: 50px auto 0;
+}
+
+.part4 .qr-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 155px;
+}
+
+.part4 .qr-list li {
+    width: 353px;
+    height: 103px;
+    background: url('//game.gtimg.cn/images/lol/arcane/v3/m/sp1.png') no-repeat;
+    cursor: pointer;
+    margin-bottom: 55px;
+}
+
+.part4 .qr-list .sczz {
+    background-position: -423px -817px;
+}
+
+.part4 .qr-list .legends-yz {
+    background-position: -11px -1069px;
+}
+
+.part4 .qr-list .legends {
+    background-position: -11px -691px;
+}
+
+.part4 .qr-list .legends-m {
+    background-position: -423px -570px;
+}
+
+.part4 .qr-list .legends-jcc {
+    background-position: -423px -1069px;
+}
+
+.part4 .qr-list .zm {
+    background-position: -11px -817px;
+}
+
+.part4 .qr-list .zbsc {
+    background-position: -423px -691px;
+}
+
+.part4 .qr-list .weibo {
+    background-position: -11px -570px;
+}
+
+.part4 .qr-list a {
+    width: 100%;
+    height: 100%;
+}
